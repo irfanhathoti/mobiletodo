@@ -1,0 +1,330 @@
+.parent
+{
+    position: relative;
+}
+.task
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 175px;
+    font-size: 28px;
+    position: absolute;
+
+}
+
+
+
+.list
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    color: gray;
+    position: absolute;
+    top: 30px;
+    left: 280px;
+}
+.btn
+{
+    color: red;
+    font-size:x-large;
+    position: absolute;
+    top: 30px;
+    left: 570px;
+}
+.a1
+{
+    font-size: larger;
+    text-decoration: none;
+    color:black;
+    font-family:'heebo', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 51px;
+    left: 610px;
+}
+.box
+{
+border: 1px solid red;
+box-shadow: 2px 2px 2px gray;
+margin: 20px;
+margin-top: 100px;
+height: 200px;
+width: 150px;
+border-radius: 8px;
+display: inline-block;
+}
+.parent1
+{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.paris
+{
+    text-decoration: none;
+    color: red;
+}
+.cmplt
+{
+    text-decoration: 2px solid line-through red;
+    color: red;
+    text-align: center;
+}
+.todo
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+}
+.hr
+{
+    margin-left: 30px;
+}
+.inp{
+margin-left: 15px;
+}
+@media screen and (min-width:240px) and (max-width:1024px) {
+.hr{
+    display: none;
+}
+.inp
+{
+    display: none;
+}
+.cmplt
+{
+    display: none;
+}  
+label
+{
+    display: none;
+}
+.box
+{
+    width: 350px;
+    height: 50px;
+    border: gray 1px solid;
+    margin-top: 10px;
+}
+.parent1
+{
+    margin-top: 80px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+}
+.parent
+{
+    margin-left: 10px;
+}
+.todo
+{
+    color: gray;
+}
+.paris
+{
+    color: gray;
+}
+.btn
+{
+    position: absolute;
+    left: 250px;
+    top: 33px;
+}
+.a1
+{
+    position: absolute;
+    top: 55px;
+    left: 280px;
+    width: 103px;
+}
+.task{
+    position: absolute;
+    left: 20px;
+}
+.list
+{
+    position: absolute;
+    left: 120px;
+}
+.box1
+{
+    margin-left: -415px;
+}
+.box2
+{
+    margin-left: -390px;
+}
+.trip
+{
+    width: 160px;
+    margin-left: -380px;
+}
+.back
+{
+    margin-left: -380px;
+ }
+ .box3
+{
+    margin-left: -395px;
+}
+.back3
+{
+    width: 110px;
+    margin-left: -425px;
+}
+.back1
+{
+    width: 110px;
+    margin-left: -390px;
+}
+.back2
+{
+    width: 196px;
+    margin-left: -391px;
+}
+}
+.box1
+{
+    border: red 1px solid;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 10px;
+    width: 250px;
+    height: 135px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.new
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+}
+.btn1
+{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.add
+{
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border-radius: 15px;
+    margin-left: 110px;
+}
+.filter
+{
+    filter: blur(5px);
+}
+input
+{
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.back
+{
+    color: red;
+    font-size: larger;
+    position: absolute;
+    top: 8px;
+    left: -30px;
+}
+.trip
+{
+    font-size: x-large;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    /* position: absolute; */
+}
+.box2
+    {
+        border-radius: 10px;
+        border: 1px red solid;
+        box-shadow: 3px 3px 3px gray;
+        position: absolute;
+        height: 270px;
+        width: 190px;
+
+    }
+.contnr
+{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 550px;
+}    
+.plus{
+    color: red;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.cmplt1
+{
+    text-decoration:2px line-through;
+    color: red;
+    text-align: center;
+}
+.todo1
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+}
+.hr1
+{
+    margin-left: 50px;
+}
+.pen{
+margin-left:15px;
+}
+.box3
+{
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px gray;
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 170px;
+    left: 530px;
+}
+.back1
+{
+    text-decoration: none;
+    font-size: x-large;
+    color: indianred;
+    position: absolute;
+    top: 330px;
+    left: 600px;
+}
+.back2
+{
+    text-decoration: none;
+    font-size: x-large;
+    color: indianred;
+    position: absolute;
+    top: 370px;
+    left: 555px
+}
+.back3
+{
+    text-decoration: none;
+    font-size: x-large;
+    color: indianred;
+    position: absolute;
+    top: 330px;
+    left: 580px;
+}
